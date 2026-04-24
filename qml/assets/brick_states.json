@@ -1,0 +1,130 @@
+{
+  "image": "brick_states.png",
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "grid": {
+    "cols": 6,
+    "rows": 3
+  },
+  "frames": {
+    "clay_0": {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "clay_1": {
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "clay_2": {
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "clay_3": {
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "clay_4": {
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "clay_5": {
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "stone_0": {
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "stone_1": {
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "stone_2": {
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "stone_3": {
+      "x": 96,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "stone_4": {
+      "x": 128,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "stone_5": {
+      "x": 160,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_0": {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_1": {
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_2": {
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_3": {
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_4": {
+      "x": 128,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "obsidian_5": {
+      "x": 160,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    }
+  },
+  "meta": {
+    "description": "Brick damage states. 6 states (0=pristine, 5=shattered) × 3 variants (clay/stone/obsidian). Renderer selects frame via Math.floor((1-hp/maxHp)*6).",
+    "damageStates": 6,
+    "variants": [
+      "clay",
+      "stone",
+      "obsidian"
+    ]
+  }
+}

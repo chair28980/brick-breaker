@@ -1,0 +1,99 @@
+{
+  "image": "kittens.png",
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "grid": {
+    "cols": 3,
+    "rows": 4
+  },
+  "frames": {
+    "cream_peek": {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "cream_sit": {
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "cream_wave": {
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "gray_peek": {
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "gray_sit": {
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "gray_wave": {
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    "orange_peek": {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "orange_sit": {
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "orange_wave": {
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    "black_peek": {
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    "black_sit": {
+      "x": 32,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    "black_wave": {
+      "x": 64,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    }
+  },
+  "meta": {
+    "description": "Kittens that emerge from broken bricks. 4 breeds × 3 poses (peek=emerging, sit=idle, wave=thanking — pair with vo_kitten_thanks).",
+    "breeds": [
+      "cream",
+      "gray",
+      "orange",
+      "black"
+    ],
+    "poses": [
+      "peek",
+      "sit",
+      "wave"
+    ]
+  }
+}

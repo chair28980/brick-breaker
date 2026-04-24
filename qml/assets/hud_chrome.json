@@ -1,0 +1,192 @@
+{
+  "image": "hud_chrome.png",
+  "meta": {
+    "description": "HUD chrome atlas: 9-slice panel (48×48, 16×16 tiles), icon strip (16×16), button states (64×16), name slots (80×16), arrows & score glyphs.",
+    "colors": {
+      "gold": "#f2c040",
+      "gold_hi": "#fff2a0",
+      "gold_lo": "#8a6818",
+      "bg": "#1a1420",
+      "bg_hi": "#2c2438",
+      "bg_lo": "#0a0714",
+      "text": "#fff3d6",
+      "text_dim": "#a89878"
+    }
+  },
+  "frames": {
+    "panel_tl": {
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "panel_t": {
+      "x": 16,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "panel_tr": {
+      "x": 32,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "panel_l": {
+      "x": 0,
+      "y": 16,
+      "w": 16,
+      "h": 16
+    },
+    "panel_c": {
+      "x": 16,
+      "y": 16,
+      "w": 16,
+      "h": 16
+    },
+    "panel_r": {
+      "x": 32,
+      "y": 16,
+      "w": 16,
+      "h": 16
+    },
+    "panel_bl": {
+      "x": 0,
+      "y": 32,
+      "w": 16,
+      "h": 16
+    },
+    "panel_b": {
+      "x": 16,
+      "y": 32,
+      "w": 16,
+      "h": 16
+    },
+    "panel_br": {
+      "x": 32,
+      "y": 32,
+      "w": 16,
+      "h": 16
+    },
+    "btn_idle": {
+      "x": 64,
+      "y": 0,
+      "w": 64,
+      "h": 16
+    },
+    "btn_hover": {
+      "x": 64,
+      "y": 16,
+      "w": 64,
+      "h": 16
+    },
+    "btn_pressed": {
+      "x": 64,
+      "y": 32,
+      "w": 64,
+      "h": 16
+    },
+    "name_slot": {
+      "x": 128,
+      "y": 0,
+      "w": 80,
+      "h": 16
+    },
+    "name_slot_focused": {
+      "x": 128,
+      "y": 16,
+      "w": 80,
+      "h": 16
+    },
+    "panel_tall": {
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 64
+    },
+    "icon_gear": {
+      "x": 0,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_audio_on": {
+      "x": 16,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_audio_off": {
+      "x": 32,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_music_on": {
+      "x": 48,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_music_off": {
+      "x": 64,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_trophy": {
+      "x": 80,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_refresh": {
+      "x": 96,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_user": {
+      "x": 112,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_close": {
+      "x": 128,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_heart": {
+      "x": 144,
+      "y": 48,
+      "w": 16,
+      "h": 16
+    },
+    "icon_arrow_left": {
+      "x": 0,
+      "y": 64,
+      "w": 16,
+      "h": 16
+    },
+    "icon_arrow_right": {
+      "x": 16,
+      "y": 64,
+      "w": 16,
+      "h": 16
+    },
+    "icon_coins": {
+      "x": 32,
+      "y": 64,
+      "w": 16,
+      "h": 16
+    },
+    "icon_level_up": {
+      "x": 48,
+      "y": 64,
+      "w": 16,
+      "h": 16
+    }
+  }
+}

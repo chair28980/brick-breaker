@@ -1,0 +1,84 @@
+{
+  "image": "particles.png",
+  "frameSize": {
+    "w": 16,
+    "h": 16
+  },
+  "grid": {
+    "cols": 8,
+    "rows": 1
+  },
+  "frames": {
+    "shard_big": {
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "shard_med": {
+      "x": 16,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "shard_small": {
+      "x": 32,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "shard_tiny": {
+      "x": 48,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "dust_large": {
+      "x": 64,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "dust_small": {
+      "x": 80,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "spark_gold": {
+      "x": 96,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    },
+    "spark_cyan": {
+      "x": 112,
+      "y": 0,
+      "w": 16,
+      "h": 16
+    }
+  },
+  "anchor": {
+    "x": 8,
+    "y": 8
+  },
+  "meta": {
+    "description": "Particle sprites for brick_break_particles (shards+dust) and treasure burst (sparks). Particle system picks frames randomly per emission.",
+    "emissionGroups": {
+      "brick_break": [
+        "shard_big",
+        "shard_med",
+        "shard_small",
+        "shard_tiny",
+        "dust_large",
+        "dust_small"
+      ],
+      "treasure_gold": [
+        "spark_gold"
+      ],
+      "treasure_gem": [
+        "spark_cyan"
+      ]
+    }
+  }
+}

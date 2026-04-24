@@ -1,0 +1,111 @@
+{
+  "image": "treasure.png",
+  "frameSize": {
+    "w": 24,
+    "h": 24
+  },
+  "grid": {
+    "cols": 3,
+    "rows": 3
+  },
+  "frames": {
+    "gold_0": {
+      "x": 0,
+      "y": 0,
+      "w": 24,
+      "h": 24
+    },
+    "gold_1": {
+      "x": 24,
+      "y": 0,
+      "w": 24,
+      "h": 24
+    },
+    "gold_2": {
+      "x": 48,
+      "y": 0,
+      "w": 24,
+      "h": 24
+    },
+    "gem_0": {
+      "x": 0,
+      "y": 24,
+      "w": 24,
+      "h": 24
+    },
+    "gem_1": {
+      "x": 24,
+      "y": 24,
+      "w": 24,
+      "h": 24
+    },
+    "gem_2": {
+      "x": 48,
+      "y": 24,
+      "w": 24,
+      "h": 24
+    },
+    "rare_0": {
+      "x": 0,
+      "y": 48,
+      "w": 24,
+      "h": 24
+    },
+    "rare_1": {
+      "x": 24,
+      "y": 48,
+      "w": 24,
+      "h": 24
+    },
+    "rare_2": {
+      "x": 48,
+      "y": 48,
+      "w": 24,
+      "h": 24
+    }
+  },
+  "anchor": {
+    "x": 12,
+    "y": 12
+  },
+  "animations": {
+    "gold_sparkle": {
+      "frames": [
+        "gold_0",
+        "gold_1",
+        "gold_2",
+        "gold_1"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "gem_sparkle": {
+      "frames": [
+        "gem_0",
+        "gem_1",
+        "gem_2",
+        "gem_1"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "rare_sparkle": {
+      "frames": [
+        "rare_0",
+        "rare_1",
+        "rare_2",
+        "rare_1"
+      ],
+      "fps": 10,
+      "loop": true
+    }
+  },
+  "meta": {
+    "description": "Treasure drops. Tier mapping: gold=common, gem=uncommon, rare=chest. Each has 3 sparkle frames for idle animation.",
+    "tiers": {
+      "gold": "sfx_treasure_gold",
+      "gem": "sfx_treasure_gem",
+      "rare": "sfx_treasure_rare"
+    }
+  }
+}
